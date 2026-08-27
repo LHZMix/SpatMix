@@ -1,6 +1,6 @@
 Package: SpatMix
 Type: Package
-Title: Spatial Mixture Models with Matrix Partial EM
+Title: Spatial Mixture Models with Flexible Covariance Structures
 Version: 0.1.0
 Authors@R: c(
     person("Hanzhang", "Lu", role = c("aut", "cre"),
