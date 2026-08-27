@@ -4,7 +4,7 @@
 \name{SpatMix-package}
 \alias{SpatMix}
 \alias{SpatMix-package}
-\title{SpatMix: Spatial Mixture Models with Flexible Covariance Structures}
+\title{SpatMix: Spatial Mixture Models for Clustering}
 \description{
 Fits spatial mixture models, including spatial Gaussian mixtures and mixtures of spatial factor analyzers, to complete or incomplete data. Spatial decay can be represented by monotone I-splines or a normalized sigmoid. Missing entries are handled using a built-in partial expectation-maximization procedure for matrix-variate data. The spatial covariance and spatial factor analyzer models are described in Lu and colleagues (2026a) "Spatial Covariance Constraints for Gaussian Mixture Models" \doi{10.48550/arXiv.2601.07979} and Lu and colleagues (2026b) "Mixtures of spatial factor analyzers for tensor-variate data" \doi{10.48550/arXiv.2607.07887}.
 }

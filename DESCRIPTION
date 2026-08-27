@@ -1,6 +1,6 @@
 Package: SpatMix
 Type: Package
-Title: Spatial Mixture Models with Flexible Covariance Structures
+Title: Spatial Mixture Models for Clustering
 Version: 0.1.0
 Authors@R: c(
     person("Hanzhang", "Lu", role = c("aut", "cre"),
