@@ -1,0 +1,5 @@
+S3method(print,spatmixfit)
+S3method(summary,spatmixfit)
+export(spatmix)
+importFrom(Rcpp,evalCpp)
+useDynLib(SpatMix, .registration=TRUE)

@@ -1,0 +1,38 @@
+Package: SpatMix
+Type: Package
+Title: Spatial Mixture Models with Matrix Partial EM
+Version: 0.1.0
+Authors@R: c(
+    person("Hanzhang", "Lu", role = c("aut", "cre"),
+        email = "hanzhang.lu@ubc.ca"),
+    person("Jeffrey L.", "Andrews", role = c("aut", "ths"))
+    )
+Description: Fits spatial mixture models, including spatial Gaussian mixtures
+    and mixtures of spatial factor analyzers, to complete or
+    incomplete data. Spatial decay can be represented by monotone I-splines or
+    a normalized sigmoid. Missing entries are handled using a built-in partial
+    expectation-maximization procedure for matrix-variate data. The spatial
+    covariance and spatial factor analyzer models are described in Lu and
+    colleagues (2026a)
+    "Spatial Covariance Constraints for Gaussian Mixture Models"
+    <doi:10.48550/arXiv.2601.07979> and Lu and colleagues (2026b) "Mixtures of
+    spatial factor analyzers for tensor-variate data"
+    <doi:10.48550/arXiv.2607.07887>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: R (>= 4.1.0)
+Imports:
+    MASS,
+    matrixStats,
+    Rcpp,
+    splines2,
+    stats,
+    withr
+LinkingTo:
+    Rcpp,
+    RcppArmadillo
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

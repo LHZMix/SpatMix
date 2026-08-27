@@ -1,0 +1,53 @@
+citHeader("To cite SpatMix in publications, please use:")
+
+bibentry(
+  bibtype = "Misc",
+  title = "Spatial Covariance Constraints for Gaussian Mixture Models",
+  author = c(
+    person("Hanzhang", "Lu"),
+    person("Keiran", "Malott"),
+    person("Venkat Suprabath", "Bitra"),
+    person("Kirsty", "Milligan"),
+    person("Sanjeena", "Subedi"),
+    person("Edana", "Cassol"),
+    person("Vinita", "Chauhan"),
+    person("Connor", "McNairn"),
+    person("Bryan", "Muir"),
+    person("Prarthana", "Pasricha"),
+    person("Sangeeta", "Murugkar"),
+    person("Rowan", "Thomson"),
+    person("Andrew", "Jirasek"),
+    person("Jeffrey L.", "Andrews")
+  ),
+  year = "2026",
+  eprint = "2601.07979",
+  archivePrefix = "arXiv",
+  primaryClass = "stat.ME",
+  doi = "10.48550/arXiv.2601.07979",
+  url = "https://arxiv.org/abs/2601.07979"
+)
+
+bibentry(
+  bibtype = "Misc",
+  title = "Mixtures of spatial factor analyzers for tensor-variate data",
+  author = c(
+    person("Hanzhang", "Lu"),
+    person("Keiran", "Malott"),
+    person("Kirsty", "Milligan"),
+    person("Sanjeena", "Subedi"),
+    person("Edana", "Cassol"),
+    person("Vinita", "Chauhan"),
+    person("Connor", "McNairn"),
+    person("Prarthana", "Pasricha"),
+    person("Sangeeta", "Murugkar"),
+    person("Rowan", "Thomson"),
+    person("Andrew", "Jirasek"),
+    person("Jeffrey L.", "Andrews")
+  ),
+  year = "2026",
+  eprint = "2607.07887",
+  archivePrefix = "arXiv",
+  primaryClass = "stat.ME",
+  doi = "10.48550/arXiv.2607.07887",
+  url = "https://arxiv.org/abs/2607.07887"
+)
