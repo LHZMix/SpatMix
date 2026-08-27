@@ -19,6 +19,8 @@ Description: Fits spatial mixture models, including spatial Gaussian mixtures
     spatial factor analyzers for tensor-variate data"
     <doi:10.48550/arXiv.2607.07887>.
 License: MIT + file LICENSE
+URL: https://github.com/LHZMix/SpatMix
+BugReports: https://github.com/LHZMix/SpatMix/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
