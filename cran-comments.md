@@ -1,11 +1,14 @@
 ## Test environments
 
 - Local: macOS Sequoia 15.7.7, R 4.5.2
+- GitHub Actions: Windows, macOS, and Ubuntu with R-release
+- GitHub Actions: Ubuntu with R-devel and R-oldrel-1
 
 ## R CMD check results
 
 - `R CMD check --no-manual`: 0 errors | 0 warnings | 0 notes
 - `R CMD check --as-cran`: 0 errors | 0 warnings | 3 notes
+- GitHub Actions: 0 errors | 0 warnings on all five configurations
 
 The `--as-cran` notes identify this as a new submission, skip the README check
 because Pandoc is not installed locally, and skip HTML validation because the
